@@ -1,0 +1,17 @@
+{
+  "name"        : "sse",
+  "description" : "",
+  "url"         : "http://github.com/digplan/sse.js",
+  "keywords"    : ["util", "nodejs", "express", "web", "html5"],
+  "author"      : "C Borkert <ILIKECHEESE@dpsw.info>",
+  "main"        : "sse.js",
+  "dependencies": {
+     "xhr2"     : "",
+     "eventsource": ""
+  },
+  "repository": {
+  	 "type"     : "git",
+ 	   "url"      : "git://github.com/digplan/sse.git"
+  },
+  "version"     : "0.0.1"
+}
