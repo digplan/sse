@@ -5,10 +5,7 @@
   "keywords"    : ["util", "nodejs", "express", "web", "html5"],
   "author"      : "C Borkert <ILIKECHEESE@dpsw.info>",
   "main"        : "sse.js",
-  "dependencies": {
-     "xhr2"     : "",
-     "eventsource": ""
-  },
+  "dependencies": {},
   "repository": {
   	 "type"     : "git",
  	   "url"      : "git://github.com/digplan/sse.git"
