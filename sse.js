@@ -17,11 +17,11 @@ module.exports = {
       if(typeof cli !== 'string')
         cli = JSON.stringify(cli);
       for(i in c){
-        c[i].write('data:'+cli+'\n\n');
+        c[i].write('data:'+cli+'\n\n'); c[i].end();
   	  }
   	  return;
     }
-    c[cli] && c[cli].write('data:'+msg+'\n\n');
+    c[cli] && c[cli].write('data:'+msg+'\n\n') && c[cli].end();
   }
 
 }
