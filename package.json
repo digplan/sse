@@ -10,5 +10,5 @@
   	 "type"     : "git",
  	   "url"      : "git://github.com/digplan/sse.git"
   },
-  "version"     : "0.0.1"
+  "version"     : "0.0.2"
 }
